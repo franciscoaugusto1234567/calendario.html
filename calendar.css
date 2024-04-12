@@ -1,0 +1,67 @@
+th {
+    background-color: rgba(18, 233, 168, 0.897);
+}
+
+option {
+    background-color: white;
+}
+
+td,
+th,
+table {
+    border: 1px solid;
+
+}
+
+input {
+    background-color: rgb(127, 127, 243);
+}
+
+.calendar {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.calendar td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.calendar tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.calendar tr:hover {
+    background-color: #ddd;
+}
+
+.calendar .month {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.calendar .today {
+    background-color: #ddd;
+}
+
+.calendar .weekend {
+    background-color: #f2f2f2;
+}
+#legenda{
+    text-align: center;
+    background-color: aqua;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:2% ;
+    border-style: solid;
+}
+

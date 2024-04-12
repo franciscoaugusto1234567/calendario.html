@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="calendar.js"></script>
+  <link rel="stylesheet" href="calendar.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <table class="calendar" id="calendar">
+    <thead>
+      <tr>
+        <th>Dom</th>
+        <th>Seg</th>
+        <th>Ter</th>
+        <th>Qua</th>
+        <th>Qui</th>
+        <th>Sex</th>
+        <th>Sab</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+
+  <label for="color">Escolha uma cor:</label>
+  <select id="color" name="color">
+    <option value="brown">marrom</option>
+    <option value="pink">rosa</option>
+    <option value="Blue">Azul</option>
+    <option value="purple">Roxo</option>
+  </select>
+
+  <label for="day">Escolha o dia:</label>
+  <input type="number" id="day" name="day" min="1" max="30">
+  <input type="submit" onclick="colorirDia()">
+
+  <div id="legenda">
+    <H2>ENTREGAS</H2>
+    <H3 style="color:brown;">CAMINNHAO GRANDE VOLSWAG</H3>
+    <H3 style="color:pink;"> CAMIONETE STRADA</H3>
+    <H3 style="color: blue;">CAMINHAO PEQUENO FIAT</H3>
+    <h3 style="color:purple;">CARRO T CROSS</h3>
+  </div>
+
+
+
+
+</body>
+
+</html>
